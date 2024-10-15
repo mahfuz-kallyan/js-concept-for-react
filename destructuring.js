@@ -35,7 +35,7 @@ const employee ={
 }
 
 const {machine, ide} = employee;
-const {weight, height} = employee.specification;
+const {weight, height} = employee?.specification;
 
 
 
